@@ -33,6 +33,7 @@ nav ul {
     float: right;
     margin-right: 20px;
     margin-top: 20px;
+    
 }
 
 nav ul li {
@@ -168,12 +169,47 @@ h2 {
 }
 #upArrow{
     margin-top: 66%;
-    margin-left: 90%;
+    margin-left: 93%;
     margin-bottom: 0%;
-    font-size: 7em;
+    font-size: 4em;
     background-color: #323846;
     text-decoration: none;
+    color: #465880;
+    transition: 0.2s;
+    
 }
+#upArrow:hover{
+    transition: 0.2s;
+    color: rgb(231, 209, 209);
+    text-shadow:  0 0 1rem #d400ff,0 0 4rem #d400ff, 0 0 9.5rem #d400ff;
+}
+#myPhoto2{
+    margin-top: 10em;
+    margin-left: 10em;
+}
+#mydetails{
+    max-width: 60%;
+    height: 470px;
+    margin-left: 25em;    
+    font-size: 30px;
+    font-family:Courier;
+    line-height: 200%;
+}
+#secondPagegap{
+    width: 100%;
+    height: 1.5em;
+}
+#myServices{
+    display: flex;
+    grid-template-columns: 300px 300px 300px 300px;
+    
+}
+#UIUX{
+    border: 1px solid #4636A7;
+    width: 20em;
+    height: 20em;   
+}
+
 
 
 
