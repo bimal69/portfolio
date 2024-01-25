@@ -1,3 +1,3 @@
 # portfolio 
 .
-day without contribution/ comits🥲
+i did sth but donnot what i did
