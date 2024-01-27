@@ -29,20 +29,20 @@ label.logo {
     padding: 0 100px;
 }
 
-nav ul {
+.navBar ul {
     float: right;
     margin-right: 20px;
     margin-top: 20px;
     
 }
 
-nav ul li {
+.navBar ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 10px 20px;
 }
 
-nav ul li a {
+.navBar ul li a {
     color: white;
     font-size: 22px;
     font-weight: 500;
@@ -52,7 +52,7 @@ nav ul li a {
     transition: 0.5s;
 }
 
-nav ul li a:hover {
+.navBar ul li a:hover {
     color: #f500b4;
     transition: 0.5s;
 }
