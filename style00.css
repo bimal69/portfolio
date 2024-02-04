@@ -9,7 +9,7 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: #4636A7;
+    background-color: #45237a;
     font-family: sans-serif;
 }
 
@@ -31,7 +31,7 @@ label.logo {
 }
 
 nav ul {
-    float:right ;
+    float: right ;
     margin-right: 20px;
     margin-top: 20px;
     
@@ -68,8 +68,7 @@ nav ul li a:active {
 }
 
 #myIntroduction h3,
-p,
-h2 {
+p,h2 {
     color: #ffffff;
 }
 
@@ -89,6 +88,59 @@ h2 {
     margin-bottom: 1.5em;
     font-size: 33px;
     font-weight: 900;
+    display: block;
+}
+.wrapper{
+    display: inline-flex;
+    height: 20vh;
+    width: 50em;
+    
+    
+}
+
+.dynamixTxts{
+    color: #f500b4;
+    margin-left: 15px;
+    line-height: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.dynamixTxts li {
+    color: #d400ff;
+    position: relative;
+    list-style: none;
+    font-size: 33px;
+    font-weight: 700;
+    top: 0;
+    animation: slide 15s steps(3) infinite;
+}
+@keyframes slide{
+    100%{
+        top: -150px;
+
+
+    }
+}
+
+
+.dynamixTxts li span{
+    position: relative;
+}
+.dynamixTxts li span::after{
+    content: "";
+    left: 0;
+    position: absolute;
+    background: #45237a;
+    
+    height: 100%;
+    width: 100%;
+    animation: typing 5s steps(18) infinite;
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
 }
 
 #aboutMe {
@@ -156,9 +208,13 @@ h2 {
    justify-content: center;
    font-size: 3em;
    padding-top: 1.3em;
-   font-weight: 900;
+   font-weight: 800;
    word-spacing: 2px;
-   font-family: 'Times New Roman', Times, serif;
+   font-family: sans-serif;
+}
+#aboutMespan{
+    color: aqua;
+    
 }
 #discriptionAboutme{
     display: flex;
@@ -201,11 +257,19 @@ h2 {
     grid-template-columns: 300px 300px 300px 300px;
     
 }
-#thirdPage{
+#secondPagegap{
     display: block;
-    background-color: #323846;
+    background-color: #4636A7 ;
+    width: 100%;
+    height: 1.2em;
 }
-#thirdPage h1{
+#thirdPage{
     
+    height: 700px;
+}
+#thirdPage h1,p{
+    text-align: center;
+    color: white;
+    margin-top: 1em;
 }
 
