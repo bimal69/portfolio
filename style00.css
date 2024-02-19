@@ -15,7 +15,7 @@ body {
 
 nav {
     height: 80px;
-    width: 100%;
+    width: 100%; 
     
 }
 
@@ -64,7 +64,7 @@ nav ul li a:active {
 
 #myIntroduction {
     margin-top: 10em;
-    margin-bottom: 7em;
+    margin-bottom: 1em;
 }
 
 #myIntroduction h3,
@@ -81,8 +81,6 @@ p,h2 {
     margin: 0px;
     font-size: 60px;
     font-weight: 900;
-    
-    text-align: left;
 
 }
 #myWork {
@@ -136,7 +134,7 @@ p,h2 {
 }
 @keyframes typing{
     100%{
-        left: 100%;
+        left: 90%;
         margin: 0 -35px 0 35px;
     }
 }
@@ -145,10 +143,6 @@ p,h2 {
     width: 70%;
     font-size: 25px;
     line-height: 1.05em;
-    text-align: left;
-    
-    
-    
 }
 
 #socialMedia{
