@@ -75,13 +75,15 @@ p,h2 {
 #helloitsme {
     font-size: 33px;
     font-weight: 900;
+    margin-bottom: 0px;
 }
 
 #myName {
-    margin: 0px;
+    margin-top: 0px;
     font-size: 60px;
     font-weight: 900;
-
+    margin-bottom: 0px;
+    text-align: left;
 }
 #myWork {
     margin-bottom: 1.5em;
@@ -143,6 +145,7 @@ p,h2 {
     width: 70%;
     font-size: 25px;
     line-height: 1.05em;
+    text-align: left;
 }
 
 #socialMedia{
