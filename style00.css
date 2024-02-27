@@ -94,9 +94,7 @@ p,h2 {
 .wrapper{
     display: inline-flex;
     height: 20vh;
-    width: 50em;
-    
-    
+    width: 50em;  
 }
 
 .dynamixTxts{
@@ -286,9 +284,8 @@ p,h2 {
     display: flex;
     grid-template-columns: 300px 300px 300px 300px;
     justify-content: space-around;
-    margin-left: 2em
-    
-    
+    margin-left: 1.5em;
+    width:100%;
     
 }
 #UIUX{
@@ -311,6 +308,10 @@ p,h2 {
     border: 1px solid white;
     width: 40vh;
     height: 60vh;
+}
+#UIUX:hover{
+    
+    transition: 0.5s;
 }
 
 
